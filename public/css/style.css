@@ -1,0 +1,27 @@
+/* Background image */
+body {
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* Set the IBM Watson logo on center */
+#header {
+    text-align: center;
+}
+
+/* Vertical divider that separates the form and the list of comments */
+.vertical-divider {
+    text-align: center;
+    border-left: 1px solid gray;
+    min-height: 700px;
+    height: 100%;
+    position: relative;
+    left: 50%;
+}
+
+/* Set margin for content */
+#body-content {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}

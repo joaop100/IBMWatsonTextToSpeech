@@ -1,0 +1,23 @@
+{
+  "name": "ibmtexttospeech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Pedro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap-icons": "^1.1.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^5.7.1",
+    "mysql": "^2.18.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

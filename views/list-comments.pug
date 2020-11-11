@@ -1,0 +1,28 @@
+//Comments saved list
+div
+    b= 'Comentários'
+
+//Create a bootstrap card for every comment
+if comments
+    each val in comments
+        div(class="card")
+            div(class="card-body")
+                div(class="row")
+                    //Comment
+                    div(class="col-8")
+                        p= val.comment
+
+                    //Audio button
+                    div(class="col-4", style="text-align: right;")
+                        button(
+                            type="submit",
+                            class="btn btn-secondary btn-sm audioTest"
+                            onclick="play(this)"
+                        )
+                            span(
+                                class="fas fa-play",
+                            )
+                            span= '  Ouvir'
+                            audio(
+                                src=val.file
+                            )

@@ -1,0 +1,22 @@
+extends layout
+block content
+    //Home page
+    div(class="container")
+        //Include header
+        div(class="row", id="header")
+            div(class="col-12")
+                include header.pug
+
+        //Include content
+        div(class="row", id="body-content")
+            div(class="col-5")
+                include form-comment.pug
+            div(class="col-2")
+                div(class="vertical-divider")
+            div(class="col-5")
+                include list-comments.pug
+
+        //Include footer
+        div(class="row", id="footer")
+            div(class="col-12")
+                include footer.pug
