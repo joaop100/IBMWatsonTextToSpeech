@@ -1,0 +1,21 @@
+//Comment form
+form(action="/comments/create" method="POST")
+    //Textarea
+    div(class="form-group")
+        label(for="comment")
+            b= 'Comentário'
+        textarea(
+            class="form-control"
+            id="comment"
+            name="comment"
+            rows="10"
+            required="required"
+        )
+
+    //Form button submit
+    div(class="form-group")
+        input(
+            type="submit"
+            value="Cadastrar"
+            class="btn btn-secondary btn-block"
+        )
